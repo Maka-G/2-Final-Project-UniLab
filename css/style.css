@@ -5,17 +5,21 @@ body{
 	margin: auto;
 	background-color: #E6DED8;
 	overflow-x: hidden;
+	background-image: url('../img/img1.png');
+	height: 567px;
+	width: 588px;
+	background-repeat: no-repeat;
+	background-position: 389px 0px;
+	background-attachment: fixed;
 }
  /*Header*/
 .logo{
 	padding-top: 50px;
-	padding-left: 80px;
+	margin-left: 80px;
 	display: inline-block;
-	
 }
 .d-navbar{
-	padding-right: 80px;
-	float: right;
+	margin-right: 80px;
 	display: inline-block;
 	padding-top: 53px;
 	vertical-align: middle;
@@ -24,22 +28,51 @@ li{
 	display: inline-block;
 }
 li a{
-	color: #2C2C2C;
+	color: #585858;
 	font-size: 17px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	margin-left: 50px;
+	display: inline-block;
 }
-
 .menu::after{
 	content: '';
 	display: block;
 	width: 0;
-	height: 2px;
-	background: #fff;
+	height: 1px;
+	background: #585858;
 	transition: width .3s;
+	margin-left: 50px;
 }
 .menu:hover::after{
-	width: 100%;
+	width: 60%;
 	transition: width .3s;
+}
+/*Section1*/
+.scroll{
+	position: fixed;
+	left: 80px;
+	top: 700px;
+	z-index: 9999;
+}
+span{
+	color: #FC5217;
+}
+.section1{
+	position: relative;
+	margin-top: 79px;
+	margin-left: 1007px;
+	display: inline-block;
+}
+h1{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #585858;
+	letter-spacing: 0.7px;
+}
+p{
+	display: inline-block;
 }
