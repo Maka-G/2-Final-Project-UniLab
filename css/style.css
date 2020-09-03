@@ -52,6 +52,7 @@ li a{
 	position: fixed;
 	left: 80px;
 	top:400px;
+	bottom: 
 	z-index: 9999;
 }
 span{
@@ -83,6 +84,7 @@ span{
 	letter-spacing: 1px;
 	text-align: right;
 }
+
 /* section 2*/
 .texture1{
 	float: left;
@@ -107,6 +109,48 @@ span{
 .text4{
 	float: right;
 	margin-top: 809px;
+	margin-right: 30px;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #585858;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-align: right;
+}
+
+/*section3 */
+.d-s3{
+	margin-top: 1450px;
+}
+
+.text5{ 
+	float: left;
+	margin-left: 153px;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #585858;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-align: right;
+}
+.img3{
+	margin-left: 30px;
+	height: 301.05px;
+}
+.img4{
+	margin-left: 30px;
+	height: 301.05px;
+}
+.img5{
+	float: right;
+	margin-right: 80px;
+	height: 580px;
+}
+.text6{
+	float: right;
+	margin-top: 200px;
 	margin-right: 30px;
 	font-size: 15px;
 	font-family: 'Lato', sans-serif;
