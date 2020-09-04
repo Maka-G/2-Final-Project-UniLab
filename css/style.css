@@ -41,12 +41,12 @@ li a{
 	display: block;
 	width: 0;
 	height: 1px;
-	background: #585858;
+	background: #FC5217;
 	transition: width .3s;
-	margin-left: 50px;
+	margin-left: 0px;
 }
 .menu:hover::after{
-	width: 60%;
+	width: 100%;
 	transition: width .3s;
 }
 
@@ -300,4 +300,15 @@ span{
 	font-weight: 200;
 	margin-top: 160px;
 	margin-left: 874px;
+}
+
+/* Contact*/
+.contact-s{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	font-size: 50px;
+	margin-top: 50px;
+	color: #FC5217;
+	vertical-align: middle;
 }
