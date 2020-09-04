@@ -31,11 +31,12 @@
 	</header>
 
 	<section>
-			<div class="scroll">
+		<button id="scroll" >
 			<img class="up" src="img/up.svg" alt="arrow up">
-		</div>
+		</button>
 
 		<div class="section1"> 
+			<div class="bg-img"> </div>
 			<img  class="img1" src="img/img2.png" alt="Monograph">
 			<div class="text1">
 				<h1> <span> Art </span> of Interior Design</h1>
@@ -124,6 +125,24 @@
 		</div>
 
 	</section>
+
+
+
+	<script type="text/javascript">
+		const scroll = document.querySelector("#scroll");
+
+		scroll.addEventListener("click", function() {
+
+			window.scrollTo({
+				top:0,
+				left:0,
+				behavior: "smooth"
+			});
+		} );
+	</script>
+
+
+
 
 	<footer>
 		<div class="d-footer">
