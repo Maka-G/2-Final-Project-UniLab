@@ -82,6 +82,7 @@ span{
 
 .img1{
 	background-attachment: fixed;
+	height: 200px;
 }
 .text1{
 	margin-top: 90px;
@@ -230,15 +231,13 @@ span{
 .d-footer{
 	position: relative;
 	height: 250px;
-	
 	background-color: #585858;
 	margin-top: 100px;
 }
 .footer-text{
 	position: absolute;
-	display: inline-block;
-	margin-top: 50px;
-	margin-left: 153px;
+	top: 50px;
+	left: 153px;
 	display: inline-block;
 }
 .f-contact{
@@ -260,8 +259,8 @@ span{
 .location-t{
 	display: inline-block;
 	position: absolute;
-	margin-top: 50px;
-	margin-left: 389px;
+	top: 50px;
+	left: 389px;
 }
 .f-location{
 	display: block;
@@ -281,21 +280,22 @@ span{
 }
 .fsoc-icons{
 	position: absolute;
-	margin-top: 160px;
-	margin-left: 153px;
+	top: 160px;
+	left: 153px;
 }
 .ficons{
 	padding-right: 35px;
 }
 .copyright{
 	position: absolute;
+	top: 160px;
+	left: 874px;
 	display: inline-block;
 	font-size: 13px;
 	color: #E6DED8;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
-	margin-top: 160px;
-	margin-left: 874px;
+	
 }
 
 /* Contact*/
