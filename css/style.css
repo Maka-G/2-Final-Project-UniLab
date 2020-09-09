@@ -350,6 +350,7 @@ span{
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	transform: translate3d(0px, 0px, 0px);
 }
 .about-text{
 	background-color:#E6DED8; 
