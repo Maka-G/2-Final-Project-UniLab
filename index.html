@@ -133,7 +133,16 @@
 
 
 
-	<script type="text/javascript">
+<script type="text/javascript">
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+		        document.getElementById("scroll").style.display = "block";
+		    } else {
+		        document.getElementById("scroll").style.display = "none";
+		    }
+		}
 		const scroll = document.querySelector("#scroll");
 
 		scroll.addEventListener("click", function() {
@@ -168,13 +177,13 @@
 					</p>
 				</div>
 				<div class="fsoc-icons">
-					<a class="ficons" href="https://www.instagram.com/edgarberg/">
+					<a class="ficons" href="https://www.instagram.com/monographfreedomsquare/">
 						<img src="img/ig.svg">
 					</a>
-					<a  class="ficons" href="https://www.edgarberg.com/">
+					<a  class="ficons" href="https://www.facebook.com/monographtbilisi/">
 						<img src="img/fb.svg">
 					</a>
-					<a  class="ficons" href="https://twitter.com/EDGARBERGcom">
+					<a  class="ficons" href="https://twitter.com/makagamsa">
 						<img src="img/tw.svg">
 					</a>
 				</div>
