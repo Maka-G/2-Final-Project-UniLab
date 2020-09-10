@@ -5,8 +5,8 @@
 
 body{
 	height: 100%;
+	max-width: 1366px;
 	width: 100%;
-	/* max-width: 1366px;*/
 	margin: auto;
 	background-color: #E6DED8;
 	overflow-x: hidden;
@@ -368,7 +368,8 @@ span{
 	text-align: center;
 }
 .about-p{
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 	margin: 25px 25px 25px 25px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
