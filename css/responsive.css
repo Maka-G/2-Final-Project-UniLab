@@ -1,17 +1,135 @@
 @media  only screen and (max-width: 1024px){
-	.bg-img{
-		width: 100px;
+	/*section1 */
+	.index-bg-img{
+		align-items: center;
+		margin-top: 150px;
+		height: 420px;
 	}
 	.img1{
-		width: 100px;
+		height: 150px;
 	}
-}
+	.text1{
+		font-size: 17px;
+	}
+	.text2{
+		font-size: 13px;
+	}
 
+	/*section2 */
+	.texture-img1{
+		height: 200px;
+	}
+	.text3{
+		font-size: 13px;
+	}
+	.texture-img2{
+		height: 480px;
+	}
+	.text4{
+		font-size: 13px;
+		margin-top: 688px;
+	}
+	/* section 3*/
+	.d-s3{
+		margin-top: 10px;
+	}
+	.text5{
+		font-size: 13px;
+
+	}
+	.img3{
+		height: 200px;
+
+	}
+	.img4{
+		height: 200px;
+	}
+	.img5{
+		height: 320px;
+	}
+	.text6{
+		margin-top: 50px;
+		font-size: 13px;
+	}
+
+	/*section4*/
+	.img6{
+		height: 250px;
+	}
+	/*section 5*/
+	.text7{
+		font-size: 13px;
+		margin-top: 315px;
+	}
+	.section5-img7{
+		height: 450px;	
+	}
+	.text8{
+		font-size: 13px;
+		margin-top: 449px;
+	}
+	.section5-img8{
+		height: 300px;
+	}
+	/*footer*/
+	.d-footer{
+		height: 200px;
+	}
+	.footer-text{
+		position: absolute;
+		top: 50px;
+		left: 100px;
+	}
+	.f-contact{
+		margin-bottom: 10px;
+	}
+	.location-tposition{
+		position: absolute;
+		top: 20px;
+		left: 389px;
+	}
+	.f-location{
+		margin-bottom: 10px;
+	}
+	.fsoc-icons{
+		position: absolute;
+		top: 160px;
+		left: 100px;
+	}
+	.copyright{
+		position: absolute;
+		top: 160px;
+		left: 574px;
+	}
+	/*contact*/
+	.contact-image {
+		align-items: center;
+	}
+	.contact-text {
+		align-items: center;
+	}
+	.map{
+		align-items: center;
+	}
+
+	/*about*/
+	.about-text{
+		max-width: 550px;
+		width: 100%;
+	}
+	.about-h{
+		font-size: 40px;
+	}
+	.about-p{
+		font-size: 12px;
+	}
+
+}
 @media (max-width: 768px){
 
 }
 
-@media (max-width: ){
+@media (max-width: 480px ){
 
 }
 
