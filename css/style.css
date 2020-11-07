@@ -237,6 +237,7 @@ span{
 	height: 250px;
 	background-color: #585858;
 	margin-top: 100px;
+	width: 100%;
 }
 .footer-text{
 	position: absolute;
